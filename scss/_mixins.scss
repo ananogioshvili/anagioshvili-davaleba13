@@ -1,0 +1,78 @@
+@mixin header {
+  width: 100%;
+  display: flex;
+  gap: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 21px;
+}
+
+@mixin sec1 {
+  padding-left: 100px;
+  padding-top: 42px;
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin h1 {
+  color: #000000;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 27px;
+}
+
+@mixin card1 {
+  background-image: url(../images/Group1.jpg);
+  width: 362px;
+  height: 186px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #ffffff;
+  // display: flex;
+  // justify-content: center;
+  padding-top: 32px;
+  padding-left: 41px;
+}
+
+@mixin card1text {
+  background-color: #ffffff;
+  width: 362px;
+  height: 186px;
+  color: #8a8787;
+  font-weight: 700;
+  font-size: 12px;
+  padding-top: 60px;
+  padding-left: 37px;
+}
+
+@mixin photo {
+  background-image: url(../images/arviciradavawero.svg);
+  width: 758px;
+  height: 430px;
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 42px;
+}
+
+@mixin footer {
+  background-color: #243043;
+  width: 100%;
+  height: 200px;
+  margin-top: 36px;
+  display: flex;
+  gap: 100px;
+  padding-top: 59px;
+  justify-content: space-evenly;
+}
+
+@mixin footertext {
+  color: #818687;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 21px;
+}

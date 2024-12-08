@@ -1,0 +1,81 @@
+@import "variables";
+@import "mixins";
+
+body {
+  font-family: "Roboto", serif;
+  background-color: #f1f1f1;
+}
+
+.header {
+  @include header;
+}
+
+.header p {
+  font-weight: 700;
+}
+
+.sec1 {
+  @include sec1;
+}
+
+.cards {
+  display: flex;
+  gap: 60px;
+}
+
+.sec1 h1 {
+  @include h1;
+}
+
+.card1 {
+  @include card1;
+}
+
+.card1text {
+  @include card1text;
+}
+
+.card2 {
+  @include card1;
+  background-image: url(../images/poto2.jpg);
+}
+
+.card3 {
+  @include card1;
+  background-image: url(../images/poto3.svg);
+}
+
+.sec2 h1 {
+  @include h1;
+  padding-left: 100px;
+  padding-top: 42px;
+}
+
+.sec3 {
+  padding-left: 100px;
+  padding-top: 22px;
+  display: flex;
+  gap: 45px;
+}
+
+.photo {
+  @include photo;
+}
+
+.photo3 {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
+}
+
+.footer {
+  @include footer;
+}
+
+.footer div p {
+  @include footertext;
+}
+
+.footer div p {
+  @include footertext;
+}
